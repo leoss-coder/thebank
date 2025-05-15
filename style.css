@@ -1,0 +1,247 @@
+body{
+    padding: 30px;
+
+}
+
+.container{
+    width: 1421;
+    height: 426;
+    top: -390px;
+    left: 771px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Public Sans;
+}
+
+.logo-nome{
+    display: flex;
+    align-items: center; 
+    gap: 5px;
+}
+
+img{
+    width: 45;
+    height: 42;
+    top: 45px;
+    left: 44.41px;
+}
+
+.titulo{
+    width: 80;
+    height: 24;
+    top: 55px;
+    left: 95px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 57;
+    height: 18;
+    top: 59px;
+    left: 1162px;
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.fundo-verde{
+    background-color: white; 
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.fundo-verde:hover{
+        background-color: #5BC241;
+        color: #FFFFFF;
+    }
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #5BC241;
+    color: #FFFFFF;
+}
+
+.btn::after {
+    height: 39px;
+    width: 127px;
+    border-radius: 10px;
+    top: 50px;
+    left: 1249px;
+}
+
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width:576px) {
+
+    body{
+        padding: 20px;
+    }
+
+
+    .container {
+        width: 375;
+        height: 800;
+        top: 54px;
+        left: 1189px;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Public Sans;
+        gap: 50px;
+    }
+
+    .logo-nome{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        gap: 5px;
+    }
+
+    img{
+        width: 45;
+        height: 42;
+        top: 50px;
+        left: 76px;
+    }
+
+    .titulo{
+        width: 160;
+        height: 47;
+        top: 47px;
+        left: 129px;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 154;
+        height: 47;
+        top: 194px;
+        left: 112px;
+        font-family: Public Sans;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .fundo-verde{
+        background-color: white; 
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        padding: 30px 80px;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .fundo-verde:hover{
+        background-color: #5BC241;
+        color: #FFFFFF;
+    }
+
+    .btn:link,
+    .btn:visited {
+        width: 106;
+        height: 25;
+        top: 694px;
+        left: 135px;
+        font-family: Public Sans;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-decoration: none;
+        padding: 25px 35px;
+        display: inline-block;
+        border-radius: 10px
+    }
+
+    .btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-white {
+        background-color: #5BC241;
+        color: #FFFFFF;
+    }
+
+    .btn::after {
+        height: 39px;
+        width: 127px;
+        border-radius: 10px;
+        top: 50px;
+        left: 1249px;
+    }
+
+
+    .btn-animated {
+        animation: moveInBottom 5s ease-out;
+        animation-fill-mode: backwards;
+    }
+
+}
+
